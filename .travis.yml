@@ -11,3 +11,5 @@ script:
       docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD" &&
       docker push vrutkovs/flatpak;
     fi
+notifications:
+  webhooks: https://hubot.vrutkovs.eu/travis-ci/103761953
