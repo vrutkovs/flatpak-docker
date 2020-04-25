@@ -1,4 +1,4 @@
-FROM registry.fedoraproject.org/fedora:30
+FROM registry.fedoraproject.org/fedora:32
 
 MAINTAINER vrutkovs@redhat.com
 
